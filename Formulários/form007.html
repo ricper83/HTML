@@ -12,16 +12,27 @@
     <p>
       <label for="iest">Estado</label>
       <select name="estado" id="iest">
-        <option value="RJ">Rio de Janeiro</option>
-        <option value="SP">São Paulo</option>
-        <option value="MG">Minas Gerais</option>
+        <optgroup label="bixxxcoito">
+          <option value="RJ">Rio de Janeiro</option>
+        </optgroup>
+        <optgroup label="bolasssha">
+          <option value="SP">São Paulo</option>
+        </optgroup>
+        <optgroup label="pacotimditrem">
+          <option value="MG">Minas Gerais</option>
+        </optgroup>
       </select>
     </p>
     <label for="iprof">Profissão</label>
-    <select name="profissao" id="iprof">
-      <option value="adm">Administração</option>
-      <option value="ven">Vendas</option>
-    </select>
+    <input type="text" name="prof" id="iprof" list="listProf">
+      <datalist id="listProf">
+        <option value="adm">Administração</option>
+        <option value="ven">Vendas</option>
+      </datalist>
+      <p>
+        <label for="imsg">Mensagem</label>
+        <textarea name="msg" id="imsg" cols="30" rows="10">Não funciona placeholder aqui...</textarea>
+      </p>
     <p>
       <input type="submit" value="Enviar"><br>
       <input type="reset" value="Limpar">
